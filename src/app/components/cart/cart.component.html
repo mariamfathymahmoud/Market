@@ -1,0 +1,22 @@
+<div class="body">
+    <div class="row">
+        <div class="col col-12 col-md-4 col-lg-3" *ngFor= "let good of goods ; index as i">
+            <div class="card" style="width: 18rem;">
+                <img [src]= "good.photourl" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">{{good.name | titlecase}}</h5>
+                  <p class="card-text">{{good.price | currency}}</p>
+                  <p style="color:rgb(243, 227, 227) ; border:1px solid red ; border-radius: 6px; background-color: red; padding-left: 10px;">Discounts up to 60%</p>
+                  <span>The original price is <del>500</del></span>
+                  <button class="btn btn-primary">Add to card</button>
+                  <span class="fa fa-star red-color" class="icon"></span>
+                    <span class="fa fa-star red-color"></span>
+                    <span class="fa fa-star red-color"></span>
+                    <span class="fa fa-star red-color"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                 </div>
+              </div>
+        </div>
+    </div>
+    </div>

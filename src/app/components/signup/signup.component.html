@@ -1,0 +1,23 @@
+<div class="body">
+    <h2 class="text-center">Sign Up</h2>
+    <form #f="ngForm">
+        <input  ngModel name="name" #name="ngModel"  type="text" class="form-control" placeholder="yourname" required>
+        <div class="alert alert-danger" *ngIf= "name.invalid && name.touched">Name is required</div>
+      <br>
+        <input  ngModel name="email"type="email" #email="ngModel" class="form-control" placeholder="E-mail" required email>
+        <div class="alert alert-danger" *ngIf= "email.touched && email.errors">E-mail is required</div>
+        <div class="alert alert-danger" *ngIf= "email.touched && email.errors">Your input dosent match E-mail format</div>
+   <br>
+        <input  ngModel name="passward"  #passward type="password" class="form-control" placeholder="passward" required minlength="6">
+  <br>
+        <input  ngModel name="passwardconfirm" #passwardconfirm="ngModel" type="password" class="form-control" placeholder="ConfirmPassward" required>
+        <div class="alert alert-danger" *ngIf= "passwardconfirm.invalid && passwardconfirm.touched">passward is required</div>
+        <div class="alert alert-danger" *ngIf= "passwardconfirm.value!==passward.value && passwardconfirm.touched">passward are not equal</div>
+ <br>
+        <input  ngModel name="Address" type="tex"  #Address="ngModel" class="form-control" placeholder="Addres" required>
+        <div class="alert alert-danger" *ngIf= "Address.invalid && Address.touched">addres is required</div>
+<br>
+        <button  class="btn btn-primary" [disabled]= "f.invalid || passwardconfirm.value!==passward.value">Create Account</button>
+    </form>
+
+</div>

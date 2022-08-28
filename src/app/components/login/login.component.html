@@ -1,0 +1,15 @@
+<div class="body">
+    <h2 class="text-center">Login</h2>
+    <form #f="ngForm">
+        <input  ngModel name="name" #name="ngModel"  type="text" class="form-control" placeholder="yourname" required>
+        <div class="alert alert-danger" *ngIf= "name.invalid && name.touched">Name is required</div>
+      <br>
+        <input  ngModel name="email"type="email" #email="ngModel" class="form-control" placeholder="E-mail" required email>
+        <div class="alert alert-danger" *ngIf= "email.touched && email.errors">E-mail is required</div>
+        <div class="alert alert-danger" *ngIf= "email.touched && email.errors">Your input dosent match E-mail format</div>
+        <br>
+        <button  class="btn btn-primary">Create Account</button>
+        <br>
+        </form>
+        </div>
+        
