@@ -1,27 +1,28 @@
-# App2
+<h1> E-Commerece Website</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
+<h1> A bout project</h1>
+<p> E-commerece Website you can buy from it  contain 
+<ul>
+<li> home page that contain many categories you can buy from it </li>
+<li> daily discounts page </li>
+<li> login page </li>
+<li> singup page </li>
+</ul>
+</p>
+<h1> The technology used :</h1>
+<ol>
+<li> Angular js </li>
+<li> HTML </li>
+<li> CSS </li>
+<li> Type script </li>
+<li>Bootstrap</li>
+</ol>
+<h1> some screenshots from website </h1>
+<img src="https://user-images.githubusercontent.com/93473434/189755357-80aa3f12-c7af-4927-9031-520a05d7c78d.JPG"/>
+<img src="https://user-images.githubusercontent.com/93473434/189755411-637f3284-8135-45f7-94f3-8dc171d05340.JPG"/>
+<img src="https://user-images.githubusercontent.com/93473434/189755486-c7175633-9334-47f8-9a84-5f6fa3ed932c.JPG"/>
+<img src="https://user-images.githubusercontent.com/93473434/189755518-b681f0fd-0bb5-46c8-bd81-935a8f8ab87a.JPG"/>
+<img src="https://user-images.githubusercontent.com/93473434/189755555-e1abe798-f772-4fc8-9a42-bd4c8094a724.JPG"/>
+<img src="https://user-images.githubusercontent.com/93473434/189755606-10e17ff1-12dd-4c50-8ace-7f6b17755417.JPG"/>
+<img src="https://user-images.githubusercontent.com/93473434/189755652-5574ff2f-3cc1-4c0e-b5d9-1b97702e88ad.JPG"/>
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
